@@ -1,0 +1,7 @@
+.place__website {
+    margin: 0;
+    grid-area: website;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
