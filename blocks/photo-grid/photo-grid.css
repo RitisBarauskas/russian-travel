@@ -2,7 +2,4 @@
     margin: 0 auto;
     max-width: 1184px;
     padding-top: 92px;
-    display: grid;
-    grid-template-columns: repeat(4, 284px);
-    gap: 16px;
 }
