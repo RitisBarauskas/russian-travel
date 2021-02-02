@@ -4,3 +4,10 @@
     margin: 0 auto;
     font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
+@media screen and (max-width: 1024px) {
+    .page {
+        min-width: 928px;
+        max-width: 1024px;
+    }
+} 

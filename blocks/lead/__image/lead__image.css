@@ -1,7 +1,12 @@
 .lead__image {
-    height: 615px;
-    width: 984px;
+    min-height: 200px;
+    width: 100%;
     margin: 64px auto 0;
-    background-image: url("../../../images/lead__image.png");
     object-fit: cover;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead__image {
+        margin-top: 56px;
+    }
+} 
