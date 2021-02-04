@@ -5,3 +5,9 @@
 .footer__link-list:last-child {
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .footer__link-list {
+        margin: 0 0 16px;
+    }
+}
