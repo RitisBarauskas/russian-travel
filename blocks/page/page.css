@@ -1,0 +1,26 @@
+.page {
+    min-width: 1280px;
+    max-width: 1600px;
+    margin: 0 auto;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+
+@media screen and (max-width: 1024px) {
+    .page {
+        min-width: 769px;
+        max-width: 1024px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .page {
+        min-width: 321px;
+        max-width: 768px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .page {
+        width: 320px;
+    }
+}
