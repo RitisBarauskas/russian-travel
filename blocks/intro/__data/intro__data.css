@@ -1,7 +1,7 @@
-.intro__list-item {
+.intro__data {
+    font-weight: bold;
     font-family: 'Inter', 'Times New Roman', Times, serif;
     font-style: normal;
-    font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     color: #fff;
