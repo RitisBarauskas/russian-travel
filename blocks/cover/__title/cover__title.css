@@ -6,39 +6,35 @@
     line-height: 76px;
     text-align: center;
     color: #fff;
-    position: absolute;
-    top: 245px;
+    margin: 245px auto 0;
     max-width: 560px;
-    left: 50%;
-    margin: 0 0 0 -280px;
     padding: 0;
 }
 
 @media screen and (max-width: 1024px) {
     .cover__title {
-        top: 195px;
+        margin-top: 195px;
     }
 }
 
 @media screen and (max-width: 790px) {
     .cover__title {
-        top: 115px;
+        margin-top: 115px;
     }
 }
 
 @media screen and (max-width: 650px) {
     .cover__title {
-        top: 65px;
+        margin-top: 65px;
         max-width: 288px;
         font-size: 32px;
         line-height: 35px;
-        margin-left: -144px;
     }
 }
 
 @media screen and (max-width: 480px) {
     .cover__title {
-        top: 33px;
-        height: 70px;
+        margin-top: 33px;
+        min-height: 70px;
     }
 }

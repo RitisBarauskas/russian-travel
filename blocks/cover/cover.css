@@ -3,6 +3,8 @@
     max-width: 1184px;
     min-height: 740px;
     position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .cover:hover .cover__overlay {
